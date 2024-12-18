@@ -3,7 +3,7 @@
 $list_user = [
     'admin' => 'secret',
     'user' => '1234'    
-]
+];
 
 // Vérifier si l'utilisateur a envoyé des identifiants
 if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
