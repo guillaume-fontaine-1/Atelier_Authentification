@@ -43,7 +43,7 @@ if ($list_user[$username] !== $password) {
     <p>Vous êtes connecté en tant que : <?php echo htmlspecialchars($_SERVER['PHP_AUTH_USER']); ?></p>
     <?php
     if ($username === 'admin'){
-        echo '<p>Section confidentiel administrateur</p>
+        echo '<p>Section confidentiel administrateur</p>';
     }
     ?>
     <a href="../index.html">Retour à l'accueil</a>  
