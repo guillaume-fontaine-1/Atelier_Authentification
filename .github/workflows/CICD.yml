@@ -45,6 +45,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            last_directory=$(basename ${{ runner.workspace }})
             cd $HOME/www/atelier1
             echo "${{ secrets.HTPASSWD }}" > .htpasswd
